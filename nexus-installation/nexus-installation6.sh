@@ -18,7 +18,7 @@ cd /opt
 
 # 1.Install prerequisit: JAVA, git, unzip
 
-sudo yum install wget git nano unzip -y
+sudo yum install wget git nano unzip vim -y
 sudo yum install java-11-openjdk-devel java-1.8.0-openjdk-devel -y
 
 
