@@ -21,6 +21,7 @@ sudo hostname nexus
 sudo useradd nexus
 # Grand sudo access to nexus user
 sudo echo "nexus ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/nexus
+sudo hostname nx
 sudo su - nexus
 ```
 
