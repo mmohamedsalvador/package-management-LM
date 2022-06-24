@@ -12,7 +12,7 @@ useradd nexus
 
 sudo echo "nexus ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/nexus
 sudo hostname nx
-sudo su - sonar
+sudo su - nexus
 
 cd /opt
 
